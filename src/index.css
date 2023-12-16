@@ -1,0 +1,76 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    background: #abccc6;
+    font-family: 'Open Sans', sans-serif;
+    color: #66574B;
+
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #FF7A00;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #66574B;
+    text-decoration: underline;
+}
+
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 0.9;
+}
+
+
+.btn {
+    color: #48433C;
+    background: #FF900E;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    text-decoration: none;
+    color: #48433C;
+}
+
+
+.btn1 {
+
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 19px;
+    padding: 15px 28px 15px 28px;
+}
+
+
+.btn2 {
+    font-size: 17px;
+    font-weight: 600;
+    padding: 8px 19px 8px 19px;
+    border-radius: 14px;
+}
+
+
+.btn3 {
+    align-self: end;
+    position: absolute;
+    margin: 5px;
+    padding: 3px 7px 3px 7px;
+    border-radius: 15px;
+    font-size: 11px;
+    font-weight: 400;
+}
+
