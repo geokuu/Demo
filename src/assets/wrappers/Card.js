@@ -16,7 +16,7 @@ const Wrapper = styled.div`
     transform: scale(1.03);
   }
 
-  .imageContainer {
+  .image-container {
     width: 210px;
     height: 210px;
     flex-direction: column;
@@ -88,7 +88,7 @@ const Wrapper = styled.div`
     font-weight: 400;
   }
 
-  .daysLeft {
+  .days-left {
     flex: 1;
     text-align: right;
   }

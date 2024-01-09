@@ -8,45 +8,45 @@ import x from "../assets/images/x.svg";
 const Footer = () => {
   return (
     <Wrapper>
-      <div className="footerColumn">
-        <h4 className="footerHeading">About</h4>
+      <div className="footer-column">
+        <h4 className="footer-heading">About</h4>
 
-        <div className="subColumn">
-          <a className="footerLink">About us</a>
-          <a className="footerLink">Careers</a>
-          <a className="footerLink">Blogs</a>
+        <div className="sub-column">
+          <a className="footer-link">About us</a>
+          <a className="footer-link">Careers</a>
+          <a className="footer-link">Blogs</a>
         </div>
       </div>
 
-      <div className="footerColumn">
-        <h4 className="footerHeading">Help</h4>
+      <div className="footer-column">
+        <h4 className="footer-heading">Help</h4>
 
-        <div className="subColumn">
-          <a className="footerLink">Help center</a>
-          <a className="footerLink">Contact us</a>
+        <div className="sub-column">
+          <a className="footer-link">Help center</a>
+          <a className="footer-link">Contact us</a>
         </div>
       </div>
 
-      <div className="footerColumn">
-        <h4 className="footerHeading">Legal</h4>
+      <div className="footer-column">
+        <h4 className="footer-heading">Legal</h4>
 
-        <div className="subColumn">
-          <a className="footerLink">Terms & conditions</a>
-          <a className="footerLink">Privacy policy</a>
+        <div className="sub-column">
+          <a className="footer-link">Terms & conditions</a>
+          <a className="footer-link">Privacy policy</a>
         </div>
       </div>
 
       <div className="social-icons">
-        <a className="social-icon" href="/demo/">
+        <a className="social-icon" href="/">
           <ReactSVG src={facebook} />
         </a>
-        <a className="social-icon" href="/demo/">
+        <a className="social-icon" href="/">
           <ReactSVG src={instagram} />
         </a>
-        <a className="social-icon" href="/demo/">
+        <a className="social-icon" href="/">
           <ReactSVG src={x} />
         </a>
-        <a className="social-icon" href="/demo/">
+        <a className="social-icon" href="/">
           <ReactSVG src={linkedin} />
         </a>
       </div>

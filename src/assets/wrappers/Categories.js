@@ -10,7 +10,7 @@ const Wrapper = styled.div`
   border-radius: 40px;
   gap: 20px;
 
-  .buttonsContainer {
+  .buttons-container {
     gap: 20px;
     display: inline-flex;
     flex-wrap: wrap;

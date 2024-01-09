@@ -35,7 +35,7 @@ const Wrapper = styled.div`
     fill: currentColor;
   }
 
-  .cardsRow {
+  .cards-row {
     display: flex;
     gap: 27px;
   }

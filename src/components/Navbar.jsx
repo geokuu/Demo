@@ -4,22 +4,22 @@ import arrow from "../assets/images/arrow-down.svg";
 const Navbar = () => {
   return (
     <Wrapper>
-      <div className="leftSide">
-        <a className="navbarLink" href="/demo/">
+      <div className="left-side">
+        <a className="navbar-link" href="/">
           Discover
         </a>
-        <a className="navbarLink start" href="/demo/"></a>
+        <a className="navbar-link start" href="/"></a>
       </div>
 
-      <a className="logoContainer" href="/demo/">
+      <a className="logo-container" href="/">
         <img className="logo" src={logo} alt="logo" />
       </a>
 
-      <div className="rightSide">
-        <a className="navbarLink" href="/demo/">
+      <div className="right-side">
+        <a className="navbar-link" href="/">
           Sign in
         </a>
-        <a className="navbarLink lang" href="/demo/">
+        <a className="navbar-link lang" href="/">
           <img className="lang-icon" src={arrow} />
         </a>
       </div>

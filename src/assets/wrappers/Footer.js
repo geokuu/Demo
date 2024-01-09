@@ -12,24 +12,24 @@ const Wrapper = styled.div`
     gap: 40px;
   }
 
-  .footerColumn {
+  .footer-column {
     flex-direction: column;
     gap: 14px;
     display: flex;
   }
 
-  .footerHeading {
+  .footer-heading {
     font-size: 18px;
     font-weight: 700;
   }
 
-  .subColumn {
+  .sub-column {
     flex-direction: column;
     gap: 7px;
     display: flex;
   }
 
-  .footerLink {
+  .footer-link {
     font-size: 13px;
     font-weight: 400;
   }

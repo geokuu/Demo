@@ -5,17 +5,17 @@ const Card = ({ project }) => {
   return (
     <Wrapper>
       <div className="card">
-        <div className="imageContainer">
+        <div className="image-container">
           <img src={project.image} alt="" />
 
-          <a className=" btn btn3" href="/demo/">
+          <a className=" btn btn3" href="/">
             {project.type}
           </a>
         </div>
 
         <div className="about">
           <h3>{project.title}</h3>
-          <a className="creator" href="/demo/">
+          <a className="creator" href="/">
             {project.creator}
           </a>
         </div>
@@ -32,7 +32,7 @@ const Card = ({ project }) => {
           <div className="stats">
             <p>{project.pledged}</p>
             <p>{project.percentage}</p>
-            <p className="daysLeft">{project.daysLeft} days left</p>
+            <p className="days-left">{project.daysLeft} days left</p>
           </div>
         </div>
       </div>

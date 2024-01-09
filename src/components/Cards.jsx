@@ -38,12 +38,12 @@ function Cards({ section }) {
       <div className="header">
         <h2>{section}</h2>
 
-        <a className="discover" href="/demo/">
+        <a className="discover" href="/">
           <ReactSVG src={arrow} />
         </a>
       </div>
 
-      <div className="cardsRow">{renderCards()}</div>
+      <div className="cards-row">{renderCards()}</div>
     </Wrapper>
   );
 }

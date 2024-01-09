@@ -3,7 +3,7 @@ import { LandingPage, ErrorPage } from "./pages";
 
 const router = createBrowserRouter([
   {
-    path: "/demo/",
+    path: "/crowdfunding/",
     element: <LandingPage />,
     errorElement: <ErrorPage />,
     children: [],

@@ -6,10 +6,10 @@ const Categories = () => {
     <Wrapper>
       <h2>Categories</h2>
 
-      <div className="buttonsContainer">
+      <div className="buttons-container">
         {data.categories.map(function (data) {
           return (
-            <a className="btn btn2" key={data} href="/demo/">
+            <a className="btn btn2" key={data} href="/">
               {data}
             </a>
           );
