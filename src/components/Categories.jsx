@@ -9,7 +9,7 @@ const Categories = () => {
       <div className="buttons-container">
         {data.categories.map(function (data) {
           return (
-            <a className="btn btn2" key={data} href="/">
+            <a className="btn btn2" key={data} href="/crowdfunding/">
               {data}
             </a>
           );

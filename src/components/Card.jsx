@@ -8,14 +8,14 @@ const Card = ({ project }) => {
         <div className="image-container">
           <img src={project.image} alt="" />
 
-          <a className=" btn btn3" href="/">
+          <a className=" btn btn3" href="/crowdfunding/">
             {project.type}
           </a>
         </div>
 
         <div className="about">
           <h3>{project.title}</h3>
-          <a className="creator" href="/">
+          <a className="creator" href="/crowdfunding/">
             {project.creator}
           </a>
         </div>

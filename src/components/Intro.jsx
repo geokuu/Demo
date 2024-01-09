@@ -10,11 +10,11 @@ const Intro = () => {
       </h1>
 
       <div className="buttons">
-        <a className="btn btn1" href="/">
+        <a className="btn btn1" href="/crowdfunding/">
           Discover
         </a>
 
-        <a className="btn btn1" href="/">
+        <a className="btn btn1" href="/crowdfunding/">
           Start a project
         </a>
       </div>

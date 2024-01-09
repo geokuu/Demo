@@ -37,16 +37,16 @@ const Footer = () => {
       </div>
 
       <div className="social-icons">
-        <a className="social-icon" href="/">
+        <a className="social-icon" href="/crowdfunding/">
           <ReactSVG src={facebook} />
         </a>
-        <a className="social-icon" href="/">
+        <a className="social-icon" href="/crowdfunding/">
           <ReactSVG src={instagram} />
         </a>
-        <a className="social-icon" href="/">
+        <a className="social-icon" href="/crowdfunding/">
           <ReactSVG src={x} />
         </a>
-        <a className="social-icon" href="/">
+        <a className="social-icon" href="/crowdfunding/">
           <ReactSVG src={linkedin} />
         </a>
       </div>
