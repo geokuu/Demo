@@ -5,4 +5,3 @@ export { default as CardsSection } from "./CardsSection.jsx";
 export { default as Categories } from "./Categories.jsx";
 export { default as Footer } from "./Footer.jsx";
 export { default as Intro } from "./Intro.jsx";
-export { default as Illustrations } from "./Illustrations.jsx";

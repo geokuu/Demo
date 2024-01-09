@@ -1,11 +1,10 @@
 import styled from "styled-components";
 
-const Wrapper = styled.main`
+const Wrapper = styled.div`
 {
+  
 
-
-
-  width: 1100px;
+  width: var(--section-width);;
   margin: auto;
   padding: 17px 29px 17px 29px;
   background: #ECE7E2;
@@ -13,7 +12,7 @@ const Wrapper = styled.main`
   display: flex;
   flex-direction: column;
   justify-content: center;
-
+  
 
   .rightSide {
     position: absolute;
@@ -53,8 +52,30 @@ const Wrapper = styled.main`
     gap: 5px;
   }
   
+  .lang::before{
+    content: "English";
+  }
   
-.lang-icon{
+  .start::before{
+    content: "Start a project";
+  }
+  
+
+  @media only screen and (max-width: 900px) {
+    .lang::before{
+      content: "Eng";
+    }
+    .start::before{
+      content: "Start";
+    }
+    .leftSide, .rightSide{
+      gap: 16px;
+    }
+  }
+
+
+
+  .lang-icon{
   margin-top: 3px ;
 }
 

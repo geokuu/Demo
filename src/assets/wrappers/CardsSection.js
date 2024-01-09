@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-const Wrapper = styled.main`
-  width: 1100px;
+const Wrapper = styled.div`
+  width: auto;
   margin: auto;
   padding: 49px 40px 40px 40px;
   background: #ece7e2;

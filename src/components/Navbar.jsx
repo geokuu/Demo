@@ -8,9 +8,7 @@ const Navbar = () => {
         <a className="navbarLink" href="/demo/">
           Discover
         </a>
-        <a className="navbarLink" href="/demo/">
-          Start a project
-        </a>
+        <a className="navbarLink start" href="/demo/"></a>
       </div>
 
       <a className="logoContainer" href="/demo/">
@@ -22,7 +20,6 @@ const Navbar = () => {
           Sign in
         </a>
         <a className="navbarLink lang" href="/demo/">
-          English
           <img className="lang-icon" src={arrow} />
         </a>
       </div>

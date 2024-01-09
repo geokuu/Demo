@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
-const Wrapper = styled.main`
+const Wrapper = styled.div`
   flex-direction: column;
   display: flex;
-  width: 1100px;
+  width: var(--section-width);
   margin: auto;
   padding: 40px;
   background: #ece7e2;

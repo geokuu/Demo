@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Wrapper = styled.main`
+const Wrapper = styled.div`
   .card {
     padding: 12px;
     background: #f5f5f5;
@@ -9,6 +9,7 @@ const Wrapper = styled.main`
     display: flex;
     flex-direction: column;
     cursor: pointer;
+    width: fit-content;
   }
 
   .card:hover {
@@ -16,6 +17,8 @@ const Wrapper = styled.main`
   }
 
   .imageContainer {
+    width: 210px;
+    height: 210px;
     flex-direction: column;
     display: flex;
   }
@@ -29,7 +32,8 @@ const Wrapper = styled.main`
   .about {
     width: 210px;
     height: 70px;
-    //flex-direction: column;
+    text-overflow: ellipsis;
+    overflow: hidden;
     gap: 3px;
   }
 

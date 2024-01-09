@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Wrapper = styled.main`
+const Wrapper = styled.div`
   flex-direction: column;
   gap: 20px;
   display: flex;
@@ -18,6 +18,16 @@ const Wrapper = styled.main`
     gap: 6px;
   }
 
+  .discover::before {
+    content: "Discover more";
+  }
+
+  @media only screen and (max-width: 900px) {
+    .discover::before {
+      content: "More";
+    }
+  }
+
   svg {
     width: 14px;
     height: 15px;
@@ -26,8 +36,8 @@ const Wrapper = styled.main`
   }
 
   .cardsRow {
-    justify-content: space-between;
     display: flex;
+    gap: 27px;
   }
 `;
 

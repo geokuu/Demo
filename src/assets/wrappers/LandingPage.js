@@ -1,10 +1,9 @@
 import styled from "styled-components";
 
-const Wrapper = styled.main`
+const Wrapper = styled.div`
   position: relative;
-  min-width: 1140px;
+  min-width: 600px;
   padding-top: 20px;
-
   flex-direction: column;
   align-items: center;
   gap: 50px;

@@ -3,7 +3,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    --section-width: 1100px;
+}
 
+@media only screen and (max-width: 1160px) {
+    *{
+        --section-width: 836px;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+    *{
+        --section-width: 576px;
+    }
 }
 
 
@@ -37,7 +50,7 @@ h2 {
 
 .btn {
     color: #48433C;
-    background: #FF900E;
+    background: #F29C36;
 }
 
 .btn:hover {
